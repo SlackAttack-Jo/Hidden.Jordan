@@ -1,6 +1,7 @@
-![Hidden jordan Logo](./assets/cover.jpg)
+[![Hidden jordan Logo](./assets/cover.jpg)](slackattack-jo.github.io/Hidden.Jordan/)
 
 >" DO NOT FOLLOW WHERE THE PATH MAY LEAD, GO INSTEAD WHERE THERE IS NO PATH AND LEAVE A TRAIL. – RALPH WALDO EMERSON "
+
 
 # **Our Team**
 
@@ -71,3 +72,6 @@ Our website solves the problem of travelers seeking a break from overcrowded tou
 <br>
 
 ![Hidden jordan Logo](./assets/Design-images/D5.png)
+
+# **Website Url**
+[Hidden Jordan website](https://slackattack-jo.github.io/Hidden.Jordan/)
