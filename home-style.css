@@ -1,0 +1,348 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+}
+
+h1{
+  font-family:'Bruno Ace' ;
+}
+
+
+body {
+  font-family: 'Quicksand', sans-serif;
+  font-family: 'Tajawal', sans-serif;
+  color: #222;
+
+
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+
+}
+
+.nav {
+  position: fixed;
+  background-color: #5B0610;
+  top: 0;
+  left: 0;
+  right: 0;
+  transition: all 0.3s ease-in-out;
+
+}
+
+.nav .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  transition: all 0.3s ease-in-out;
+  height: 85px;
+}
+
+.nav .container .group1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  transition: all 0.3s ease-in-out;
+}
+
+.nav ul {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+  padding: 7px 15px;
+  transition: all 0.3s ease-in-out;
+}
+
+.nav.active {
+  background-color: #5B0610;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.nav.active a {
+  color: #000;
+}
+
+.nav.active .container {
+  padding: 10px 0;
+}
+
+.nav a.current,
+.nav a:hover {
+  color: white;
+  font-weight: bold;
+  font-size: large;
+}
+
+.MainImage {
+  background-image: url('./assets/kls579urmmcvpbv0.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  height: 650px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  margin-bottom: 20px;
+  z-index: -2;
+
+}
+
+.MainImage::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: -1;
+
+}
+
+.MainImage h1 {
+  font-size: 46px;
+  margin: -20px 0 20px;
+  padding-top: 130px;
+  font-family: 'Bruno Ace', cursive;
+}
+
+.MainImage p {
+  font-size: 20px;
+  letter-spacing: 1px;
+  font-family: 'Bruno Ace', cursive;
+
+}
+
+main {
+  background-color: white;
+  min-height: calc(100vh - 120px);
+  padding-top: 50px;
+  padding-bottom: 40px;
+  /* display: flex; */
+  justify-content: center;
+}
+
+.explore {
+  color: black;
+  font-family: 'Bruno Ace', ;
+  display: flex;
+  justify-content: center;
+  /* margin-left:600px; */
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 70px;
+}
+.card1{
+  border-radius: 30px;
+  width: 300px;
+  height: 390px;
+  padding: 5px;
+  text-align: center;
+  box-shadow: 0 10px 10px 0 rgba(0.2, 0.2, 0.5, 0.5);
+  font-size: 25px;
+}
+.card1 a{
+  text-decoration: none;
+  color: #000;
+}
+.card2{
+  border-radius: 30px;
+  width: 300px;
+  height: 390px;
+  padding: 5px;
+  text-align: center;
+  box-shadow: 0 10px 10px 0 rgba(0.2, 0.2, 0.5, 0.5);
+  font-size: 25px;
+}
+.card2 a{
+  text-decoration: none;
+  color: #000;
+}
+.card3{
+  border-radius: 30px;
+  width: 300px;
+  height: 390px;
+  padding: 5px;
+  text-align: center;
+  box-shadow: 0 10px 10px 0 rgba(0.2, 0.2, 0.5, 0.5);
+  font-size: 25px;
+}
+.card3 a{
+  text-decoration: none;
+  color: #000;
+}
+.circle {
+  height: 90px;
+  width: 90px;
+  background-color: #5B0610;
+  border-radius: 50%;
+  margin-left: 240px;
+  display: flex;
+  justify-content: center;
+  gap:7px;
+  
+}
+.circle i{
+  color: #fff;
+  font-size: 35px;
+  margin-top: 25px;
+}
+.circle h6{
+  color: #fff;
+  margin-top: 35px;
+}
+
+.cards img {
+  border-radius: 25px 25px 0px 0px;
+  padding: 0px;
+}
+
+
+.card1:hover {
+  box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+.card2:hover {
+  box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+.card3:hover {
+  box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+.cards2 {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 70px;
+}
+.card4{
+  border-radius: 30px;
+  width: 300px;
+  height: 390px;
+  padding: 5px;
+  text-align: center;
+  box-shadow: 0 10px 10px 0 rgba(0.2, 0.2, 0.5, 0.5);
+  font-size: 25px;
+}
+.card4 a{
+  text-decoration: none;
+  color: #000;
+}
+.card5{
+  border-radius: 30px;
+  width: 300px;
+  height: 390px;
+  padding: 5px;
+  text-align: center;
+  box-shadow: 0 10px 10px 0 rgba(0.2, 0.2, 0.5, 0.5);
+  font-size: 25px;
+}
+.card5 a{
+  text-decoration: none;
+  color: #000;
+}
+.card6{
+  border-radius: 30px;
+  width: 300px;
+  height: 390px;
+  padding: 5px;
+  text-align: center;
+  box-shadow: 0 10px 10px 0 rgba(0.2, 0.2, 0.5, 0.5);
+  font-size: 25px;
+}
+.card6 a{
+  text-decoration: none;
+  color: #000;
+}
+
+.cards2 img {
+  border-radius: 25px 25px 0px 0px;
+  padding: 0px;
+}
+
+
+.card4:hover {
+  box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+.card5:hover {
+  box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+.card6:hover {
+  box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+.cards3 {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+.card7{
+  border-radius: 30px;
+  width: 300px;
+  height: 390px;
+  padding: 5px;
+  text-align: center;
+  box-shadow: 0 10px 10px 0 rgba(0.2, 0.2, 0.5, 0.5);
+  font-size: 25px;
+}
+.card7 a{
+  text-decoration: none;
+  color: #000;
+}
+.cards3 img {
+  border-radius: 25px 25px 0px 0px;
+  padding: 0px;
+}
+
+
+.card7:hover {
+  box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+.content p {
+  color: #555;
+  line-height: 30px;
+  letter-spacing: 1.2px;
+  padding-bottom: 50px;
+
+}
+.exploreHeading {
+justify-content: center;
+}
+footer {
+  width: 100%;
+  background: #5B0610;
+  color: #fff;
+  font-size: 13px;
+  height: 100%;
+  justify-content: space-between;
+  text-align: center;
+
+
+}
