@@ -298,7 +298,7 @@ main {
   justify-content: center;
 }
 
-.circle h3{
+.circle h4{
   color: #fff;
   margin-top: 35px;
   font-size: 23px;
@@ -328,9 +328,12 @@ main {
   gap: 50px;
   margin-top: 70px;
 }
-.cards2 h3{
-  color:#fdf9f9;
+.cards2 h3 {
+  color:#5B0610;
 }
+
+
+
 .card4{
   border-radius: 30px;
   width: 300px;
@@ -397,7 +400,7 @@ main {
   margin-bottom: 70px;
 }
 .cards3 h3{
-  color:#fcf5f6;
+  color:#5B0610;
 }
 .card7{
   border-radius: 30px;
