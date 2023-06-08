@@ -46,19 +46,25 @@
     </nav>
    
 <main>
-        <form class="form">
+ 
+  
+        <form id="form">
             <h2>Suggest Place Form</h2>
             <label>Name:</label>
-            <input type="text" name="name" id="Name" required><br>
+            <input type="text" name="fName" id="fName"><br>
             <label> Name of the place you suggest to visit:</label>
-            <input type="text" name="placeName" id="placeName" required><br>
-            <label> Images for the place:</label>
-            <input type="file" id="myFile" name="filename" multiple>
+            <input type="text" name="pName" id="pName"><br>
+            <label> URL image address for the place:</label>
+            <input type="text" id="pImage" name="pImage" >
             <label> Message:</label>
-            <textarea rows="4" name="comment" id="comment"></textarea><br>
-            <input type="submit" name="submit" id="submit" value="Save"><br>
+            <textarea rows="4" name="pMessage" id="pMessage"></textarea><br>
+            <input type="submit" name="submit" id="submit" value="submit"><br>
           </form>
-    
+     <div id="render">
+  </div>
+          
+           
+            
  </main>
    
 
@@ -97,6 +103,6 @@
   <p >&copy2023 Hidden Jordan .JO | Designed and Developed By Slack Attack Co.</p>
 </div>
  </footer>
-
+<script src="./jsFile/suggestedplaces.js"></script>
   </body>
 </html>
