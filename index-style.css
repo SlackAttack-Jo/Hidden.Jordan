@@ -200,6 +200,9 @@ main {
   gap: 50px;
   margin-top: 70px;
 }
+.cards h3{
+  color:#5B0610;
+}
 .card1{
   border-radius: 30px;
   width: 300px;
@@ -247,17 +250,58 @@ main {
   margin-left: 240px;
   display: flex;
   justify-content: center;
-  gap:7px;
+  gap:5px;
+  
   
 }
 .circle i{
   color: #fff;
   font-size: 35px;
   margin-top: 25px;
+  cursor: pointer;
+  text-shadow: 5px 8px 15px #5B0610;
+  transition: 0.5s;
 }
-.circle h6{
+#like1:hover{
+  color:#f9bac3;
+  font-size:40px;
+  justify-content: center;
+}
+#like2:hover{
+  color:#f9bac3;
+  font-size:40px;
+  justify-content: center;
+}
+#like3:hover{
+  color:#f9bac3;
+  font-size:40px;
+  justify-content: center;
+}
+#like4:hover{
+  color:#f9bac3;
+  font-size:40px;
+  justify-content: center;
+}
+#like5:hover{
+  color:#f9bac3;
+  font-size:40px;
+  justify-content: center;
+}
+#like6:hover{
+  color:#f9bac3;
+  font-size:40px;
+  justify-content: center;
+}
+#like7:hover{
+  color:#f9bac3;
+  font-size:40px;
+  justify-content: center;
+}
+
+.circle h3{
   color: #fff;
   margin-top: 35px;
+  font-size: 23px;
 }
 
 .cards img {
@@ -283,6 +327,9 @@ main {
   justify-content: center;
   gap: 50px;
   margin-top: 70px;
+}
+.cards2 h3{
+  color:#fdf9f9;
 }
 .card4{
   border-radius: 30px;
@@ -348,6 +395,9 @@ main {
   gap: 50px;
   margin-top: 70px;
   margin-bottom: 70px;
+}
+.cards3 h3{
+  color:#fcf5f6;
 }
 .card7{
   border-radius: 30px;
