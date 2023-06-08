@@ -27,8 +27,8 @@
  font-family: 'Lexend', sans-serif; 
 }
 .nav {
-  position: fixed;
-background-color: #5B0610;
+ position: fixed;
+ background-color: #5B0610;
   top: 0;
   left: 0;
   right: 0;
@@ -216,6 +216,18 @@ h1 {
   font-size: 30px;
 }
 
+.map{
+  padding-left: 185px;
+  padding-bottom: 70px;
+  }
+  
+  
+  .map iframe{
+  width: 1000px;
+  height: 450px;
+  border:0;
+  box-shadow: 10px 10px 10px 10px rgba(0.2, 0.2, 0.5, 0.5);
+  }
  footer{
     width: 100%;
     background: #5B0610;
