@@ -195,4 +195,234 @@ letter-spacing: 8px;
 .footerBottomsection p{
 font-size: medium;
 }
+.about {
+    
+  padding-left: 20px;
+  padding-right: 20px ;
+  padding-top: 20px; 
+  padding-bottom: 20px;
+
+  background-color:#F3D99F ;
+  
+
+  max-height: 1000px ;
+  max-width: 1000px ;
+  
+  margin-top: 100px ;
+  margin-bottom: 100px ;
+  margin-left: 200px ; 
+  margin-right: 200px;
+
+
+} 
+.who
+{
+
+margin-left: 40px ; 
+font-family:Bruno Ace;
+ 
+}
+
+.we {
+  
+  margin-top: 10px ;
+  margin-bottom: 10px ;
+  margin-left: 40px ; 
+  margin-right: 40px;
+
+  padding-left: 20px;
+  padding-right: 20px ;
+  padding-top: 10px; 
+  padding-bottom: 10px;
+
+  font-family: Lexend;
+  background-color:aliceblue;
+  
+  
+
+}
+.what 
+{
+
+margin-left: 40px ; 
+font-family: Bruno Ace;
+
+}
+.set{
+  margin-top: 10px ;
+  margin-bottom: 10px ;
+  margin-left: 40px ; 
+  margin-right: 40px;
+
+  padding-left: 20px;
+  padding-right: 20px ;
+  padding-top: 10px; 
+  padding-bottom: 10px;
+
+  font-family: Lexend;
+  background-color:aliceblue;
+  
+
+}
+.cards{
+  padding-left: 50px;
+  padding-right: 50px ;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  
+ 
+} 
+.t1{
+display:flex;
+padding-top: 50px;
+padding-bottom: 50px;
+
+}
+
+.t2{
+display:flex;
+padding-top: 30px;
+padding-bottom: 30px;
+
+}
+
+.pic { 
+
+  margin-top: -100px;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 250px ;
+  height: 200px;  
+ 
+}
+
+
+
+
+.te{
+
+  color: aliceblue;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 550px ;
+  margin-right: 550px; 
+  background-color: #5B0610;
+  justify-content: center; 
+  font-family:Bruno Ace;
+} 
+ .ot{
+  margin-left: 80px;
+  margin-right: 80px;
+}  
+
+.hamza{
+
+margin-left: 50px;
+margin-right: 25px;
+border: 3px solid #5B0610;
+border-radius: 20px;
+justify-content: center;
+
+
+}
+
+.mahmoud{
+
+margin-left: 25px;
+margin-right: 25px;
+
+border: 3px solid #5B0610;
+border-radius: 20px;
+justify-content: center;
+  
+  }
+
+
+.mohammad{
+
+margin-left: 25px;
+margin-right: 25px;
+border: 3px solid #5B0610;
+border-radius: 20px;
+justify-content: center;
+    
+    }
+  
+  
+.rahaf{
+
+margin-left: 25px;
+margin-right: 50px;
+border: 3px solid #5B0610;
+border-radius: 20px;
+justify-content: center;
+      
+      }
+    
+    
+.roaa{
+
+margin-left: 150px;
+margin-right: 40px;
+border: 3px solid #5B0610;
+border-radius: 20px;
+justify-content: center;
+        
+ }
+      
+.sara{
+
+ margin-left: 40px;
+ margin-right: 40px; 
+ border: 3px solid #5B0610;
+ border-radius: 20px;
+ justify-content: center;
+          
+}
+
+.wasfi{
+
+margin-left: 40px;
+margin-right: 80px;
+border: 3px solid #5B0610;
+border-radius: 20px;
+justify-content: center;
+
+}
+
+ h4{
+  
+   margin-left: 30px;
+  margin-right: 10px; 
+  justify-content: center;
+  
+}
    
+.fa-brands {
+  font-size: 20px;
+  border: none;
+  color:#5B0610;
+
+}          
+
+.fa-slack
+{
+margin-right: 15px;
+}
+.name{
+
+text-align: center;
+justify-content: center;
+margin-top: -30px;
+margin-bottom: 30px; 
+
+}
+
+.icons{
+text-align: center;
+margin-bottom: 10px;
+
+
+}
+
+
