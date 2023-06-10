@@ -27,6 +27,7 @@ body{
  font-family: 'Lexend', sans-serif; 
 }
 .nav {
+  position: fixed;
   background-color: #5B0610;
   top: 0;
   left: 0;
@@ -131,7 +132,7 @@ body{
 }
 main{
   background-color:white ;
-  padding-top: 50px;
+  padding-top:130px;
   padding-bottom: 40px;
   font-family:'Lexend', sans-serif;
   justify-content: center;
