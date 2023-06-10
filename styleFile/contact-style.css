@@ -1,11 +1,12 @@
-
-
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
-
+body{
+  max-width: 1400px;
+  margin: 0 auto;
+}
 .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -134,12 +135,11 @@
 
   
   main{
-background-color: white;
-    min-height: calc(100vh - 120px);
-    padding-top: 20px;
+    background-color:white ;
+    padding-top: 100px;
     padding-bottom: 40px;
+    font-family:'Lexend', sans-serif;
     justify-content: center;
-    font-family: 'Lexend', sans-serif;
 }
 
 .card {
@@ -192,7 +192,7 @@ input[type="submit"] {
 }
 
 
-h1 {
+main h1 {
   
   
   color: #333;
