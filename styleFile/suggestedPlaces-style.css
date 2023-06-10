@@ -3,6 +3,10 @@
   margin: 0;
   padding: 0;
 }
+body{
+  max-width: 1400px;
+  margin: 0 auto;
+}
 .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -23,6 +27,7 @@
  font-family: 'Lexend', sans-serif; 
 }
 .nav {
+  position: fixed;
   background-color: #5B0610;
   top: 0;
   left: 0;
@@ -127,7 +132,7 @@
 }
 main{
   background-color:white ;
-  padding-top: 50px;
+  padding-top:130px;
   padding-bottom: 40px;
   font-family:'Lexend', sans-serif;
   justify-content: center;

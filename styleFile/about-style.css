@@ -3,6 +3,10 @@
     margin: 0;
     padding: 0;
   }
+  body{
+    max-width: 1400px;
+    margin: 0 auto;
+}
   
   .container {
     max-width: 1200px;
@@ -131,11 +135,12 @@
   }
   main{
 
-    min-height: calc(100vh - 120px);
-    padding-top: 20px;
+    background-color:white ;
+    padding-top: 50px;
     padding-bottom: 40px;
-    font-weight: bold;
+    font-family:'Lexend', sans-serif;
     justify-content: center;
+    font-weight: bold;
     
 }
   
