@@ -19,7 +19,7 @@ let cardRender=document.createElement('div')
 cardRender.style.backgroundColor="#FFF6BF"
 cardRender.style.marginLeft="20px"
 cardRender.style.width="400px"
-cardRender.style.height="570px"
+cardRender.style.height="640px"
 cardRender.style.textAlign="center"
 cardRender.style.marginBottom="20px"
 cardRender.style.borderRadius="15px"
@@ -54,7 +54,7 @@ placemessageRender.textContent=placesArray[i].placeMessage
 placemessageRender.style.backgroundColor="white"
 placemessageRender.style.borderRadius="10px"
 placemessageRender.style.margin="20px"
-placemessageRender.style.height="150px"
+placemessageRender.style.maxHeight="200px"
 cardRender.appendChild(placemessageRender)
 
 }
