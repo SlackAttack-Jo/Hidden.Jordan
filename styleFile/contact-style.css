@@ -17,25 +17,15 @@ body{
   font-family: 'Bruno Ace', cursive;
   font-size: large;
 }
-.imageParagraph1{
-  font-family: 'Lexend', sans-serif;
-  font-weight: bold;
-  max-width: 900px;
-  text-align: center;
-}
-.imageParagraph2{
- padding-top: 30px;
- font-family: 'Lexend', sans-serif; 
-}
+
 .nav {
- position: fixed;
- background-color: #5B0610;
+  position: fixed;
+  background-color: #5B0610;
   top: 0;
   left: 0;
   right: 0;
   transition: all 0.3s ease-in-out;
-  font-family: 'Lexend', sans-serif;
-  font-weight: bold;
+  font-family:  'Poppins', sans-serif;
   z-index: 9999;
 }
 
@@ -69,20 +59,6 @@ body{
   transition: all 0.3s ease-in-out;
 }
 
-.nav.active {
-  background-color:#5B0610;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
-}
-
-.nav.active a {
-  color:white;
-  font-weight: bolder;
-}
-
-.nav.active .container {
-  padding: 10px 0;
-}
-
 .nav a:hover {
   color: #FFDB99;
   font-weight: bolder;
@@ -94,10 +70,10 @@ body{
   outline: none;
   padding: 14px 16px;
   background-color: inherit;
-  font-family: inherit;
+  font-family:  'Poppins', sans-serif;
   margin: 0;
   color:white;
-  font-weight: bolder;
+ 
 }
 
 .navbar a:hover, .dropdown:hover .dropbtn {
@@ -110,7 +86,6 @@ body{
   display: none;
   position: absolute;
   background-color:  #70121d ;
-
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
@@ -138,19 +113,22 @@ body{
     background-color:white ;
     padding-top: 100px;
     padding-bottom: 40px;
-    font-family:'Lexend', sans-serif;
+    font-family: 'Poppins', sans-serif;
     justify-content: center;
 }
 
 .card {
   border: 1px solid #ccc;
   border-radius: 5px;
-  padding: 20px;
+  padding: 25px;
+  padding-bottom: 30px;
+  padding-right: 30px;
   width: 900px; 
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   background-color: #F3D99F;
   justify-items: center;
-  font-weight: bold;
+  
+
   
 }
 
@@ -169,10 +147,14 @@ input[type="text"],
 input[type="email"],
 textarea {
   width: 100%;
-  padding: 8px;
+  display: inline-block;
+  margin: 4px;
+  font-size: 15px;
+  font-family: 'Poppins', sans-serif;
   border-radius: 4px;
-  border: 1px solid #ccc;
   background-color: white;
+  border: 1px solid #ccc;
+  padding: 8px;
 }
 
 input[type="submit"] {
@@ -180,25 +162,32 @@ input[type="submit"] {
   color: white;
   padding: 10px 15px;
   border: none;
-  border-radius: 30px;
+  border-radius: 5px;
   cursor: pointer;
   text-align: center;
   align-content: center;
-  width: 860px;
-  height: 40px;
+  width: 100%;
+  height: 50px;
   font-size: 20px;
-  font-family: 'Lexend', sans-serif;
-  font-weight: bold;
+  font-family: 'Poppins', sans-serif;;
+  
 }
 
 
-main h1 {
-  
-  
+main .para1 {
   color: #333;
   padding-left: 50px;
   font-size: xx-large;
-
+  padding-top: 10px;
+padding-bottom: 10px;
+font-family: 'Bruno Ace', cursive;
+}
+main .para2{
+  color: #333;
+  padding-left: 50px;
+  font-size: xx-large;
+  padding-bottom:30px;
+font-family: 'Bruno Ace', cursive;
 }
 
 .form {
@@ -206,15 +195,69 @@ main h1 {
   padding-left: 235px;
   align-items: center;
   justify-items: center;
-  font-family: 'Lexend', sans-serif;
+   font-family: 'Poppins', sans-serif;;
   padding-bottom: 50px;
 
 }
 
 .card h2{
-  padding-left: 350px;
+  padding-left: 300px;
   font-size: 30px;
+  font-family: 'Bruno Ace', cursive;
 }
+.popup{
+  border-radius: 6px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%,-50%) scale(0.1);
+  text-align: center;
+  justify-content: center;
+  padding: 30px 30px 30px;
+  color: #333;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  width: 400px;
+  background-color: #fff ;
+  visibility: hidden;
+ transition: transform 0.4s, top 0.4s;
+ }
+ 
+ .open-popup{
+   visibility:visible;
+   top: 50%;
+   transform: translate(-50%,-50%) scale(1);
+ }
+ 
+ 
+ .popup img{
+   width: 100px;
+   margin-top: -50px;
+   border-radius: 50%;
+   box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+ }
+ .popup h2{
+   font-size: 38px;
+   font-weight: bold;
+   margin: 30px 0 10px;
+   font-family: 'Poppins', sans-serif;
+ }
+ .popup p{
+  font-family: 'Poppins', sans-serif;
+
+ }
+ .popup button{
+   width: 100%;
+   margin-top: 50px;
+   padding: 10px 0;
+   background-color:#6fd649 ;
+   color: #fff;
+   border: 0;
+   outline: none;
+   font-size: 18px;
+   border-radius: 4px;
+   cursor: pointer;
+   box-shadow: 0 5px 5px rgba(0,0,0,0.2);
+ }
 
 .map{
   padding-left: 185px;
@@ -236,7 +279,7 @@ main h1 {
     height: 100%;
     justify-content: space-between;
     text-align: center;
-    font-family: 'Lexend', sans-serif;
+     font-family: 'Poppins', sans-serif;;
   }
 footer h3{
     font-family: 'Bruno Ace', cursive; 

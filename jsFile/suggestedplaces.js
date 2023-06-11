@@ -19,7 +19,7 @@ let cardRender=document.createElement('div')
 cardRender.style.backgroundColor="#FFF6BF"
 cardRender.style.marginLeft="20px"
 cardRender.style.width="400px"
-cardRender.style.height="570px"
+cardRender.style.height="640px"
 cardRender.style.textAlign="center"
 cardRender.style.marginBottom="20px"
 cardRender.style.borderRadius="15px"
@@ -37,7 +37,6 @@ cardRender.appendChild(usernameRender)
 
 let placenameRender=document.createElement('p')
 placenameRender.textContent=`# ${placesArray[i].placeName}`
-placenameRender.style.fontWeight="bold"
 cardRender.appendChild(placenameRender)
 
 let placeimageRender=document.createElement('img')
@@ -52,11 +51,10 @@ cardRender.appendChild(placeimageRender)
 
 let placemessageRender=document.createElement('p')
 placemessageRender.textContent=placesArray[i].placeMessage
-placemessageRender.style.fontWeight="bold"
 placemessageRender.style.backgroundColor="white"
 placemessageRender.style.borderRadius="10px"
 placemessageRender.style.margin="20px"
-placemessageRender.style.height="150px"
+placemessageRender.style.maxHeight="200px"
 cardRender.appendChild(placemessageRender)
 
 }
@@ -111,3 +109,10 @@ function readFromLocalStorage() {
 
 readFromLocalStorage();
 feedbackRender ();
+let popup = document.getElementById("popup");
+    function openPopup(){
+        popup.classList.add("open-popup");
+      }
+      function closePopup(){
+        popup.classList.remove("open-popup");
+      }    
