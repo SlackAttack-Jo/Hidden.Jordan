@@ -37,7 +37,6 @@ cardRender.appendChild(usernameRender)
 
 let placenameRender=document.createElement('p')
 placenameRender.textContent=`# ${placesArray[i].placeName}`
-placenameRender.style.fontWeight="bold"
 cardRender.appendChild(placenameRender)
 
 let placeimageRender=document.createElement('img')
@@ -52,7 +51,6 @@ cardRender.appendChild(placeimageRender)
 
 let placemessageRender=document.createElement('p')
 placemessageRender.textContent=placesArray[i].placeMessage
-placemessageRender.style.fontWeight="bold"
 placemessageRender.style.backgroundColor="white"
 placemessageRender.style.borderRadius="10px"
 placemessageRender.style.margin="20px"
@@ -111,3 +109,10 @@ function readFromLocalStorage() {
 
 readFromLocalStorage();
 feedbackRender ();
+let popup = document.getElementById("popup");
+    function openPopup(){
+        popup.classList.add("open-popup");
+      }
+      function closePopup(){
+        popup.classList.remove("open-popup");
+      }    

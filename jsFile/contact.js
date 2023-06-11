@@ -25,5 +25,11 @@ form.addEventListener('submit', function (e) {
   form.reset();
 
   
-  alert('Form data saved successfully!');
 });
+let popup = document.getElementById("popup");
+    function openPopup(){
+        popup.classList.add("open-popup");
+      }
+      function closePopup(){
+        popup.classList.remove("open-popup");
+      }    
