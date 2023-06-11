@@ -19,16 +19,6 @@
       font-family: 'Bruno Ace', cursive;
       font-size: large;
     }
-    .imageParagraph1{
-      font-family: 'Poppins', sans-serif;
-      font-weight: bold;
-      max-width: 900px;
-      text-align: center;
-    }
-    .imageParagraph2{
-     padding-top: 30px;
-     font-family: 'Poppins', sans-serif; 
-    }
     .nav {
       position: fixed;
     background-color: #5B0610;
@@ -69,21 +59,6 @@
       padding: 7px 15px;
       transition: all 0.3s ease-in-out;
     }
-    
-    .nav.active {
-      background-color:#5B0610;
-      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
-    }
-    
-    .nav.active a {
-      color:white;
-      font-weight: bolder;
-    }
-    
-    .nav.active .container {
-      padding: 10px 0;
-    }
-    
     .nav a:hover {
       color: #FFDB99;
       font-weight: bolder;
@@ -206,8 +181,8 @@
   
   }
   .tripinfo-tabs h4{
-     height: 132px;
-     width: 370px;
+     height: 153px;
+     width:410px;
      background-color:#5B0610;
      margin:40px;
      color: #fff;
@@ -219,8 +194,8 @@
      box-shadow: 10px 10px 10px 10px rgba(0.2, 0.2, 0.5, 0.5);
   }
   .tripinfo-tabs .first{
-      height: 132px;
-      width: 370px;
+      height: 153px;
+      width: 410px;
       background-color:#5B0610;
       margin:40px;
       color: #fff;
@@ -251,7 +226,7 @@
    width: 100%;  
   }
   .bottom-paragraph{
-  max-width: 700px;
+  max-width: 650px;
   text-align: center;
   padding: 20px;
   background-color: #fff;
