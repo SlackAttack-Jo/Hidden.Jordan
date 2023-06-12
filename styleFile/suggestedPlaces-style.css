@@ -191,9 +191,9 @@ input[type="submit"]{
  
  .popup img{
    width: 100px;
-   margin-top: -50px;
+   margin-top: -80px;
    border-radius: 50%;
-   box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  
  }
  .popup h2{
    font-size: 38px;
@@ -209,7 +209,7 @@ input[type="submit"]{
    width: 100%;
    margin-top: 50px;
    padding: 10px 0;
-   background-color:#6fd649 ;
+   background-color:#5B0610 ;
    color: #fff;
    border: 0;
    outline: none;
