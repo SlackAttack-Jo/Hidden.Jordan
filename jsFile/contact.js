@@ -28,8 +28,15 @@ form.addEventListener('submit', function (e) {
 });
 let popup = document.getElementById("popup");
     function openPopup(){
-        popup.classList.add("open-popup");
+        let userName =document.getElementById("name")
+        let userEmail =document.getElementById("email")
+        let userMessage =document.getElementById("message")
+        if (userName.value !=="" && userEmail.value !=="" && userMessage.value !=="") {
+            popup.classList.add("open-popup");
+        }
+       
       }
       function closePopup(){
         popup.classList.remove("open-popup");
       }    
+
