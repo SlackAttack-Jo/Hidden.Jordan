@@ -183,9 +183,11 @@ font-size: medium;
   padding-top: 20px; 
   padding-bottom: 20px;
 
- background-image: url(./background.jpg);
- background-position: center;
- background-size: 1170px;
+  background: rgba(112, 10, 10, 0.281);
+  background-image: url(./55.png); 
+  font-weight: bold; 
+  background-position: center;
+  background-size: 900px;
  max-height: 1000px ;
  max-width: 1000px ;
   

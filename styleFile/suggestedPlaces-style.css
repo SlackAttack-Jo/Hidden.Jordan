@@ -124,12 +124,15 @@ main{
       padding-bottom: 30px;
       padding-left: 20px;
       padding-right: 30px;
-      background-image: url(./background.jpg);
-      background-position: center;
-      background-size: 1300px;
       margin-left: 280px;  
       margin-bottom: 30px;
-}
+      background: rgba(112, 10, 10, 0.178);
+      background-image: url(./55.png); 
+      font-weight: bold; 
+      background-position: center;
+      background-size: 1000px;}
+
+ 
 #form h2{
   text-align: center;
   font-size: 30px;
@@ -164,13 +167,17 @@ input[type="submit"]{
   cursor: pointer;
   border-radius: 5px;
   background-color:#5B0610;
+  border: none;
   color: white;
 }
 #cardRender{
-  background-image: url(./background.jpg);
-  background-position: left;
-  background-size: 1400px;
-}
+
+  
+  background-image: url(./cardsbackground.jpg); 
+  font-weight: bold; 
+  background-position:center;
+  background-size:550px;}
+
 .popup{
   border-radius: 6px;
   position: absolute;
@@ -233,8 +240,6 @@ input[type="submit"]{
  padding-top: 30px;
 margin-left: 35px;
 margin-bottom: 50px;
-
-
 }
 
 footer{
