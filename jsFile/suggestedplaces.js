@@ -16,16 +16,14 @@ function feedbackRender () {
     render.innerHTML = '';
     for (let i = 0; i < placesArray.length; i++) {
 let cardRender=document.createElement('div')
-cardRender.style.backgroundColor="#FFF6BF"
-cardRender.style.marginLeft="20px"
+cardRender.style.marginLeft="22px"
 cardRender.style.width="400px"
 cardRender.style.height="640px"
 cardRender.style.textAlign="center"
-cardRender.style.marginBottom="20px"
+cardRender.style.marginBottom="40px"
 cardRender.style.borderRadius="15px"
-cardRender.style.border="1px solid black"
-cardRender.style.boxShadow="5px 5px 5px 5px rgba(0.1, 0.1, 0.4, 0.4)"
-
+cardRender.style.boxShadow="5px 5px 5px 5px rgba(0, 0, 0, 0.4)"
+cardRender.setAttribute("id","cardRender")
 render.appendChild(cardRender)
 
 let usernameRender=document.createElement('p')
@@ -43,10 +41,11 @@ let placeimageRender=document.createElement('img')
 placeimageRender.setAttribute("src",placesArray[i].placeImage)
 placeimageRender.setAttribute("alt","Place image")
 
-placeimageRender.style.paddingTop="20px"
+placeimageRender.style.marginTop="20px"
 placeimageRender.style.borderRadius="10px"
 placeimageRender.style.width="350px"
 placeimageRender.style.height="300px"
+placeimageRender.style.boxShadow="5px 5px 5px 2px rgba(0,0,0,.7)"
 cardRender.appendChild(placeimageRender)
 
 let placemessageRender=document.createElement('p')
@@ -54,7 +53,7 @@ placemessageRender.textContent=placesArray[i].placeMessage
 placemessageRender.style.backgroundColor="white"
 placemessageRender.style.borderRadius="10px"
 placemessageRender.style.margin="20px"
-placemessageRender.style.maxHeight="200px"
+placemessageRender.style.height="200px"
 cardRender.appendChild(placemessageRender)
 
 }
@@ -111,7 +110,15 @@ readFromLocalStorage();
 feedbackRender ();
 let popup = document.getElementById("popup");
     function openPopup(){
-        popup.classList.add("open-popup");
+        let name =document.getElementById("fName")
+        let placeName =document.getElementById("pName")
+        let placeImage =document.getElementById("pName")
+        let userMessage =document.getElementById("pMessage")
+        console.log(name.value);
+        if (name.value !=="" && placeName.value !=="" && placeImage.value !=="" && userMessage.value !=="") {
+            popup.classList.add("open-popup");
+        }
+       
       }
       function closePopup(){
         popup.classList.remove("open-popup");

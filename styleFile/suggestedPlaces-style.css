@@ -124,7 +124,9 @@ main{
       padding-bottom: 30px;
       padding-left: 20px;
       padding-right: 30px;
-      background-color: #F3D99F;
+      background-image: url(./background.jpg);
+      background-position: center;
+      background-size: 1300px;
       margin-left: 280px;  
       margin-bottom: 30px;
 }
@@ -163,6 +165,11 @@ input[type="submit"]{
   border-radius: 5px;
   background-color:#5B0610;
   color: white;
+}
+#cardRender{
+  background-image: url(./background.jpg);
+  background-position: left;
+  background-size: 1400px;
 }
 .popup{
   border-radius: 6px;
