@@ -18,7 +18,7 @@ function feedbackRender () {
 let cardRender=document.createElement('div')
 cardRender.style.marginLeft="22px"
 cardRender.style.width="400px"
-cardRender.style.height="640px"
+cardRender.style.height="670px"
 cardRender.style.textAlign="center"
 cardRender.style.marginBottom="40px"
 cardRender.style.borderRadius="15px"
@@ -53,7 +53,8 @@ placemessageRender.textContent=placesArray[i].placeMessage
 placemessageRender.style.backgroundColor="white"
 placemessageRender.style.borderRadius="10px"
 placemessageRender.style.margin="20px"
-placemessageRender.style.height="200px"
+placemessageRender.style.height="230px"
+placemessageRender.style.padding="10px"
 cardRender.appendChild(placemessageRender)
 
 }
