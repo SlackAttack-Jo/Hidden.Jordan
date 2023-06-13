@@ -125,7 +125,6 @@ body{
   padding-right: 30px;
   width: 800px; 
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  background-color: #F3D99F;
   justify-items: center;
   background: rgba(112, 10, 10, 0.281);
   background-image: url(./55.png); 
@@ -154,7 +153,7 @@ textarea {
   font-size: 15px;
   font-family: 'Poppins', sans-serif;
   border-radius: 4px;
-  background-color: white;
+  background-color:aliceblue;
   border: 1px solid #ccc;
   padding: 8px;
 }
