@@ -50,7 +50,7 @@ cardRender.appendChild(placeimageRender)
 
 let placemessageRender=document.createElement('p')
 placemessageRender.textContent=placesArray[i].placeMessage
-placemessageRender.style.backgroundColor="white"
+placemessageRender.style.backgroundColor="aliceblue"
 placemessageRender.style.borderRadius="10px"
 placemessageRender.style.margin="20px"
 placemessageRender.style.height="230px"
