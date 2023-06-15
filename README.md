@@ -35,7 +35,7 @@ Our website solves the problem of travelers seeking a break from overcrowded tou
 - About Us Page
 <br>
 
-![Hidden jordan Logo](./assets/Wirefram-images/3.png)
+![Hidden jordan Logo](./assets/Wirefram-images/3.jpg)
 <br><br>
 - Suggest Place Page
 <br>
